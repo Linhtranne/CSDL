@@ -1,0 +1,20 @@
+1. MySQL là gì?
+MySQL là một hệ quản trị cơ sở dữ liệu quan hệ (RDBMS - Relational Database Management System) mã nguồn mở, được phát triển bởi Oracle Corporation.
+Nó sử dụng ngôn ngữ SQL (Structured Query Language) để quản lý và thao tác dữ liệu.
+MySQL thường được sử dụng trong các ứng dụng web, với khả năng tương thích cao và hiệu suất tốt.
+
+2. Ba đặc điểm chính của MySQL:
+Mã nguồn mở (Open Source):
+	MySQL là phần mềm mã nguồn mở, cung cấp miễn phí nhưng cũng có các phiên bản thương mại để đáp ứng nhu cầu doanh nghiệp.
+Hiệu suất cao và linh hoạt:
+	MySQL có hiệu suất xử lý tốt, hỗ trợ cả cơ sở dữ liệu lớn và nhỏ. Nó phù hợp với nhiều loại ứng dụng từ nhỏ gọn đến phức tạp.
+Hỗ trợ đa nền tảng:
+	MySQL có thể chạy trên nhiều hệ điều hành khác nhau như Windows, Linux, macOS.
+
+3. Ba trường hợp thực tế sử dụng MySQL:
+Website thương mại điện tử:
+	MySQL được sử dụng để quản lý dữ liệu sản phẩm, khách hàng và đơn hàng trong các trang thương mại điện tử như Shopify, WooCommerce.
+Ứng dụng quản lý:
+	Hệ thống quản lý nhân viên, dự án, khách hàng, v.v., trong các doanh nghiệp thường sử dụng MySQL làm cơ sở dữ liệu chính.
+Nền tảng mạng xã hội:
+	MySQL có thể được sử dụng để lưu trữ dữ liệu người dùng, bài viết, tin nhắn trong các nền tảng mạng xã hội như Twitter hoặc Facebook.
