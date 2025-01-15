@@ -1,0 +1,27 @@
+a) 5 kiểu dữ liệu cơ bản thường dùng trong SQL:
+INTEGER (hoặc INT):
+
+Lưu trữ giá trị số nguyên.
+Thường dùng cho các cột như ID, mã số, hoặc số lượng.
+VARCHAR (hoặc TEXT):
+
+Lưu trữ chuỗi ký tự có độ dài thay đổi.
+
+DATE (hoặc DATETIME):
+Lưu trữ ngày hoặc ngày giờ.
+Thường dùng cho cột liên quan đến ngày sinh, ngày tạo, hoặc ngày cập nhật.
+DECIMAL (hoặc FLOAT):
+
+Lưu trữ giá trị số thực, hỗ trợ số thập phân.
+BOOLEAN:
+Lưu trữ giá trị đúng/sai (TRUE/FALSE).
+
+b) Xác định kiểu dữ liệu phù hợp cho các cột:
+MaSV (Mã sinh viên, giá trị nguyên):
+Kiểu dữ liệu: INT
+HoTen (Họ tên, chuỗi ký tự):
+Kiểu dữ liệu: VARCHAR(255)
+NgaySinh (Ngày sinh):
+Kiểu dữ liệu: DATE
+DiemTrungBinh (Điểm trung bình, giá trị thực):
+Kiểu dữ liệu: DECIMAL(5, 2)

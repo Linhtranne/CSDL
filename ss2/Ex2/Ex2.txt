@@ -1,0 +1,28 @@
+1.PRIMARY KEY (Khóa chính):
+Định nghĩa:
+PRIMARY KEY là một ràng buộc dùng để xác định duy nhất mỗi hàng (record) trong một bảng.
+
+Một bảng chỉ có một khóa chính.
+Giá trị của khóa chính phải duy nhất và không được để trống.
+2.NOT NULL (Không cho phép giá trị null):
+Định nghĩa:
+NOT NULL là ràng buộc đảm bảo một cột không được phép chứa giá trị null (trống).
+
+Dùng để đảm bảo rằng dữ liệu quan trọng phải luôn có giá trị.
+3.FOREIGN KEY (Khóa ngoại):
+Định nghĩa:
+FOREIGN KEY là ràng buộc dùng để liên kết hai bảng với nhau, đảm bảo dữ liệu trong một cột phải tồn tại trong bảng khác.
+
+FOREIGN KEY duy trì tính toàn vẹn tham chiếu giữa hai bảng.
+b) Tại sao cần sử dụng ràng buộc trong cơ sở dữ liệu?
+Đảm bảo tính toàn vẹn của dữ liệu:
+
+-Ngăn chặn dữ liệu không hợp lệ, chẳng hạn như giá trị null ở cột bắt buộc (NOT NULL) hoặc trùng lặp ở cột khóa chính (PRIMARY KEY).
+-Tăng tính nhất quán:
+FOREIGN KEY đảm bảo dữ liệu giữa các bảng liên quan đồng nhất, giúp tránh sai sót khi cập nhật/xóa.
+-Giảm thiểu lỗi nhập liệu:
+Ràng buộc giúp kiểm tra dữ liệu ngay tại thời điểm nhập, hạn chế lỗi dữ liệu không hợp lệ.
+-Tăng hiệu quả truy vấn:
+PRIMARY KEY và các ràng buộc khác có thể tối ưu hóa các chỉ mục, cải thiện hiệu năng truy vấn.
+-Dễ quản lý dữ liệu:
+Sử dụng ràng buộc làm giảm khả năng nhập dữ liệu lỗi, giúp quản lý dữ liệu phức tạp trở nên dễ dàng hơn.		

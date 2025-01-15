@@ -1,0 +1,4 @@
+a) 
+1: thiếu bảng học sinh và bảng môn (lớp , khoa , trường)
+2: điểm là 1 thực thể yếu nên cần 2 khóa kết hợp tạo ra 1 khóa chính
+3: thực thể 	Diểm thiếu thuộc tính mã môn , ...
