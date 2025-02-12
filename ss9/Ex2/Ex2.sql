@@ -10,4 +10,8 @@ SELECT name, COUNT(manager_id) as total_employees
 FROM employees
 GROUP BY name;
 SELECT * FROM view_manager_summary
+  
+SELECT e.name, v.total_employees  
+FROM view_manager_summary v  
+JOIN employees e ON e.manager_id = v.manager_id;  
 
