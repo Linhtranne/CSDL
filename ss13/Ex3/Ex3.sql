@@ -57,4 +57,4 @@ BEGIN
 END //
 
 DELIMITER ;
-
+CALL PaySalary (1);
