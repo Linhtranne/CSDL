@@ -78,4 +78,7 @@ BEGIN
     END IF;
 END //
 DELIMITER ;
+call Register('Trần Thị Ba', 'Cơ sở dữ liệu');
 
+select * from enrollments;
+select * from courses;
